@@ -1,0 +1,24 @@
+1. Install dependencies
+
+pip install anthropic python-dotenv
+
+
+2. Create a .env file in the same directory ( making_a_request/)
+
+ANTHROPIC_API_KEY=your_api_key_here
+
+
+Get your API key from - console.anthropic.com
+
+3. Run the script
+cd /Users/<username>/making_a_request python hello_claude.py
+
+
+Note: Make sure the .env file is in the same directory as hello_claude.py so load_dotenv() picks it up correctly.
+
+
+Expected Output:-
+<username>@Seemas-MacBook-Pro making_a_request % python hello_claude.py
+Claude says:
+Hello! I'm Claude, made by Anthropic. It's nice to meet you. How can I help you today?
+<username>@Seemas-MacBook-Pro making_a_request % 

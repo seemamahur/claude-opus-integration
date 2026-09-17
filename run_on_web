@@ -1,0 +1,10 @@
+To run a Python script that calls the Anthropic API in a web browser, we need Streamlit (Easiest)
+
+1-pip install streamlit anthropic python-dotenv
+
+2- create app.py
+
+3-for the run
+streamlit run app.py
+
+![Alt text](image.png)
