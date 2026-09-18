@@ -7,7 +7,7 @@ To run a Python script that calls the Anthropic API in a web browser, we need St
 3-for the run
 streamlit run app.py
 
-![Alt text](image.png)
-
 Most IMP :- after diconnect run again
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
 streamlit run yourscript.py
